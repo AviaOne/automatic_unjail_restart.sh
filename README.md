@@ -1,11 +1,15 @@
 This should work with all node built with Cosmos
 
-"1- Add your setting and parameters in automatic_unjail_restart.sh"
-"2- Create directory /home/script/"
-"3- Upload automatic_unjail_restart.sh + Automatic_unjail_and_restart_LOG.log in /home/script/"
-"4- Do not forget the permission files, you must do ->"
+1- Add your setting and parameters in automatic_unjail_restart.sh
+
+2- Create directory /home/script/
+
+3- Upload automatic_unjail_restart.sh + Automatic_unjail_and_restart_LOG.log in /home/script/
+
+4- Do not forget the permission files, you must do ->
    cd scripts
    chmod +x *
+   
 5- Create crontab/job ->
    sudo nano /etc/crontab
    */10 * * * * root /root/scripts/automatic_unjail_restart.sh
