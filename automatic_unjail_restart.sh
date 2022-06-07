@@ -50,7 +50,7 @@ fi
 # Voting power ZERO
 VOTING_POWER=$(echo $STATUS | jq '.result.validator_info.voting_power' | xargs )
 if [[ $VOTING_POWER -lt 1 ]]; then
-	echo | $BINARY tx slashing unjail --from $WALLET
+	echo | $BINARY tx slashing unjail --from $WALLET -y
 		sleep 15s
 fi
 #
