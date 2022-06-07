@@ -1,4 +1,4 @@
-This should work with all node built with Cosmos
+This should work with all nodes built with Cosmos
 
 1- Add your setting and parameters in automatic_unjail_restart.sh
 
@@ -6,7 +6,7 @@ This should work with all node built with Cosmos
 
 3- Upload automatic_unjail_restart.sh + Automatic_unjail_and_restart_LOG.log in /home/script/
 
-4- Do not forget the permission files, you must do ->
+4- Do not forget the permissions files, you must do ->
 
    cd scripts
    
