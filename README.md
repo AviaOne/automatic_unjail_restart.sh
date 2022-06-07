@@ -7,6 +7,7 @@ This should work with all node built with Cosmos
 3- Upload automatic_unjail_restart.sh + Automatic_unjail_and_restart_LOG.log in /home/script/
 
 4- Do not forget the permission files, you must do ->
+
    cd scripts
    
    chmod +x *
